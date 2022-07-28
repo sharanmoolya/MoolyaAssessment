@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/LENOVO T450/IdeaProjects/SwiggiyDemoAutomation/src/test/java/Pages">
+        <classes>
+            <class name="Pages.Help">
+
+            </class>
+            </classes>
+    </test>
+    <test name="location">
+        <classes>
+            <class name="Pages.Location">
+
+            </class>
+        </classes></test>
+    <test name="loginpage">
+        <classes>
+            <class name="Pages.LoginPage">
+
+            </class>
+        </classes>
+    </test>
+    <test name="offers">
+        <classes>
+            <class name="Pages.Offers">
+
+            </class>
+        </classes>
+    </test>
+    <test name="signup">
+        <classes>
+
+            <class name="Pages.SignUpPage">
+
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/LENOVO T450/IdeaProjects/SwiggiyDemoAutomation/src/test/java/RestAssuredDemo">
+        <classes>
+            <class name="RestAssuredDemo.DeleteUser">
+                <methods>
+                    <include name="deleteUser"/>
+                </methods>
+            </class>
+            <class name="RestAssuredDemo.GetRequest">
+                <methods>
+                    <include name="getUserdetails"/>
+                </methods>
+            </class>
+            <class name="RestAssuredDemo.PatchRequest">
+                <methods>
+                    <include name="updateUserdetails"/>
+                </methods>
+            </class>
+            <class name="RestAssuredDemo.PostRequest">
+                <methods>
+                    <include name="addNewUser"/>
+                </methods>
+            </class>
+            <class name="RestAssuredDemo.UpdateUser">
+                <methods>
+                    <include name="updateUserdetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

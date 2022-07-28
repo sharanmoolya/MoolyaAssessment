@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/LENOVO T450/IdeaProjects/SwiggiyDemoAutomation/src/test/java/Pages/SignUpPage.java(failed)">
+    <classes>
+      <class name="Pages.LoginPage">
+        <methods>
+          <include name="launcBrowser"/>
+          <include name="loginpage"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Pages.LoginPage -->
+      <class name="Pages.Location">
+        <methods>
+          <include name="locationpage"/>
+          <include name="launcBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Pages.Location -->
+    </classes>
+  </test> <!-- C:/Users/LENOVO T450/IdeaProjects/SwiggiyDemoAutomation/src/test/java/Pages/SignUpPage.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="154294" started-at="2022-07-27T12:24:34 IST" finished-at="2022-07-27T12:27:08 IST">
+    <groups>
+    </groups>
+    <test name="C:/Users/LENOVO T450/IdeaProjects/SwiggiyDemoAutomation/src/test/java/Pages/SignUpPage.java" duration-ms="41434" started-at="2022-07-27T12:24:34 IST" finished-at="2022-07-27T12:25:15 IST">
+      <class name="Pages.SignUpPage">
+        <test-method status="PASS" signature="launcBrowser()[pri:0, instance:Pages.SignUpPage@5b275dab]" name="launcBrowser" is-config="true" duration-ms="12194" started-at="2022-07-27T12:24:34 IST" finished-at="2022-07-27T12:24:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcBrowser -->
+        <test-method status="PASS" signature="signUpProcess()[pri:0, instance:Pages.SignUpPage@5b275dab]" name="signUpProcess" duration-ms="25141" started-at="2022-07-27T12:24:46 IST" finished-at="2022-07-27T12:25:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpProcess -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Pages.SignUpPage@5b275dab]" name="closeBrowser" is-config="true" duration-ms="4013" started-at="2022-07-27T12:25:11 IST" finished-at="2022-07-27T12:25:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Pages.SignUpPage -->
+    </test> <!-- C:/Users/LENOVO T450/IdeaProjects/SwiggiyDemoAutomation/src/test/java/Pages/SignUpPage.java -->
+    <test name="sharan" duration-ms="20972" started-at="2022-07-27T12:25:15 IST" finished-at="2022-07-27T12:25:36 IST">
+      <class name="Pages.LoginPage">
+        <test-method status="PASS" signature="launcBrowser()[pri:0, instance:Pages.LoginPage@5442a311]" name="launcBrowser" is-config="true" duration-ms="8340" started-at="2022-07-27T12:25:15 IST" finished-at="2022-07-27T12:25:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcBrowser -->
+        <test-method status="PASS" signature="loginpage()[pri:0, instance:Pages.LoginPage@5442a311]" name="loginpage" duration-ms="8389" started-at="2022-07-27T12:25:24 IST" finished-at="2022-07-27T12:25:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Pages.LoginPage@5442a311]" name="closeBrowser" is-config="true" duration-ms="4241" started-at="2022-07-27T12:25:32 IST" finished-at="2022-07-27T12:25:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Pages.LoginPage -->
+    </test> <!-- sharan -->
+    <test name="sharan1" duration-ms="45434" started-at="2022-07-27T12:25:36 IST" finished-at="2022-07-27T12:26:22 IST">
+      <class name="Pages.Location">
+        <test-method status="PASS" signature="launcBrowser()[pri:0, instance:Pages.Location@754ba872]" name="launcBrowser" is-config="true" duration-ms="9003" started-at="2022-07-27T12:25:36 IST" finished-at="2022-07-27T12:25:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcBrowser -->
+        <test-method status="PASS" signature="locationpage()[pri:0, instance:Pages.Location@754ba872]" name="locationpage" duration-ms="32129" started-at="2022-07-27T12:25:45 IST" finished-at="2022-07-27T12:26:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationpage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Pages.Location@754ba872]" name="closeBrowser" is-config="true" duration-ms="4298" started-at="2022-07-27T12:26:18 IST" finished-at="2022-07-27T12:26:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Pages.Location -->
+    </test> <!-- sharan1 -->
+    <test name="sharan2" duration-ms="22751" started-at="2022-07-27T12:26:22 IST" finished-at="2022-07-27T12:26:45 IST">
+      <class name="Pages.Help">
+        <test-method status="PASS" signature="launcBrowser()[pri:0, instance:Pages.Help@239963d8]" name="launcBrowser" is-config="true" duration-ms="9975" started-at="2022-07-27T12:26:22 IST" finished-at="2022-07-27T12:26:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcBrowser -->
+        <test-method status="PASS" signature="HelpDetails()[pri:0, instance:Pages.Help@239963d8]" name="HelpDetails" duration-ms="7988" started-at="2022-07-27T12:26:32 IST" finished-at="2022-07-27T12:26:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HelpDetails -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Pages.Help@239963d8]" name="closeBrowser" is-config="true" duration-ms="4787" started-at="2022-07-27T12:26:40 IST" finished-at="2022-07-27T12:26:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Pages.Help -->
+    </test> <!-- sharan2 -->
+    <test name="sharan3" duration-ms="23472" started-at="2022-07-27T12:26:45 IST" finished-at="2022-07-27T12:27:08 IST">
+      <class name="Pages.Offers">
+        <test-method status="PASS" signature="launcBrowser()[pri:0, instance:Pages.Offers@5f341870]" name="launcBrowser" is-config="true" duration-ms="7950" started-at="2022-07-27T12:26:45 IST" finished-at="2022-07-27T12:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcBrowser -->
+        <test-method status="PASS" signature="offetingDetails()[pri:0, instance:Pages.Offers@5f341870]" name="offetingDetails" duration-ms="11403" started-at="2022-07-27T12:26:53 IST" finished-at="2022-07-27T12:27:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- offetingDetails -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Pages.Offers@5f341870]" name="closeBrowser" is-config="true" duration-ms="4117" started-at="2022-07-27T12:27:04 IST" finished-at="2022-07-27T12:27:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Pages.Offers -->
+    </test> <!-- sharan3 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
